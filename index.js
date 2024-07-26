@@ -1,5 +1,9 @@
 function helloGIT (name) {
-    console.log(`Hola ${name}, bienvenido a GIT !!!`);
+    console.log(`Hola ${name}, se realizó push de la rama.`);
 }
 
-helloGIT('Toño');
+helloGIT('Miguel');
+
+console.log("Se realizan cambios para probar el comando 'git push'.");
+
+
