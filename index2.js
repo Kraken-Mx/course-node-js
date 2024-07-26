@@ -5,3 +5,6 @@ function helloGIT (name) {
 helloGIT('Toño');
 
 helloGIT('Mi segundo commit');
+
+console.log("Se realizan cambios para probar el comando 'git push'.");
+
