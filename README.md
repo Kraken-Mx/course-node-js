@@ -1,3 +1,2 @@
-# hello-git
-My first repository on GitHub !!!
-
+# course-node-js
+My first node js project on GitHub !!!
