@@ -1,3 +1,6 @@
+console.log('Hola, mundo (: !!!')
+
+
 function helloGIT (name) {
     console.log(`Hola ${name}, se realizó push de la rama.`);
 }
