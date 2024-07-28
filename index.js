@@ -1,9 +1,13 @@
-function helloGIT (name) {
-    console.log(`Hola ${name}, se realizó push de la rama.`);
-}
+/*
+ *
+ * Index of node app 
+ * 
+*/
+const a = 10
+const b = 10
 
-helloGIT('Miguel');
+// CommonJS require module
+const { sum } = require('./modules/sum')
 
-console.log("Se realizan cambios para probar el comando 'git push'.");
-
+console.log(`La suma es: ${sum(a, b)}.`)
 
