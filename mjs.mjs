@@ -8,5 +8,11 @@
 
 import { sum, multiply, exponencial } from './mjs/sum.mjs'
 
-console.log(sum(30, 20), multiply(30, 20), exponencial(1))
+const a = 9
+const b = 1
+
+console.log(`Sum of ${a} + ${b} = ${sum(a, b)} \n` +
+             `Multiply of ${a} * ${b} = ${multiply(a, b)} \n` +
+             `Exponencial of ${b} = ${exponencial(b)} \n`
+            )
 
