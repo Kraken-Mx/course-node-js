@@ -7,7 +7,7 @@
 
 const fs = require('node:fs') 
 
-const stats = fs.statSync('./archivo.txt')
+const stats = fs.statSync('./file1.txt')
 
 console.log(
     `Es archivo ? ${ stats.isFile() } \n` +
