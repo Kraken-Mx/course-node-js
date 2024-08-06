@@ -15,9 +15,9 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
         //console.log(files)
         files.forEach(file => {
             if(file.isDirectory())
-                console.log(file.name + ' --> DIRECTORY')
+                console.log(file.name.padEnd(30) + ' --> DIRECTORY')
             else
-            console.log(file.name + ' --> OTHER')
+            console.log(file.name.padEnd(30) + ' --> OTHER')
         })
     }
 })
