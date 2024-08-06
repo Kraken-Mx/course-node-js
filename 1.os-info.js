@@ -1,10 +1,11 @@
 /*
  *
  * OS information app
+ * The 'node:os' module provides operating system-related utility methods and properties.
+ * https://nodejs.org/api/os.html
  * 
 */
-
-import { platform, release, arch, freemem, totalmem, uptime } from 'node:os' // ES module
+//import { platform, release, arch, freemem, totalmem, uptime } from 'node:os' // ES module (.mjs)
 const os = require('node:os') // CommonJS module
 
 console.log('-------------------------------------------')
