@@ -13,7 +13,7 @@ const { sum } = require('./cjs/sum.js')
 const { global_object } = require('./cjs/global_object.js')
 const circle = require('./cjs/circle.js')
 
-console.log(`La suma es: ${sum(a, b)}.`)
+console.log(`The sum is: ${sum(a, b)}.`)
 
 console.log(`The area of a circle of radius 4 is: ${circle.area(4)}`);
 console.log(`The circumference of a circle of radius 4 is: ${circle.circumference(4)}`);
