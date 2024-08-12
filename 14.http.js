@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
 });
 
 availablePort(0).then(port => {
-    server.listen(port, () => {
+    server.listen(port, () => { // Starts the HTTP server listening for connections.
         console.log(`Server listening on the free port ${port}` +
             `\nPress alt + click --> http://localhost:${port}` +
             `\nExponencial of port: ${exponencial(port)}` +
